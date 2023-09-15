@@ -1,0 +1,62 @@
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
+.fill{
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  width:300px;
+    border:none;
+    border-bottom:2px solid;
+    border-BOTTOM-color:#3E4147;
+    outline:none;
+  }
+.div_form{
+margin-top:160px;
+  color:black;
+}
+
+.log{
+  padding:10px;
+  border:solid;
+  border-width:0.5px;
+  border-left:none;
+}
+.loginbtn{
+  border-radius:2px;
+  padding:10px;
+  border-width:1px;
+  border-color:#3E4147;
+  color:white;
+  background:linear-gradient(black, grey);
+margin-left:120px;
+}
+.loginbtn:hover{
+color:grey;
+}
+.pwd{
+  color:rgb(37, 37, 191);
+  text-decoration:none;
+}
+.pwd:hover{
+  color:blueviolet;
+}
+.grey{
+  display:inline;
+  color:grey;
+}
+.container{
+  margin-left:17em;
+  margin-top:3em;
+  display:flex;
+  margin-bottom:3em;
+}
+.part1{
+  padding: 120px 50px;
+  color:white;
+  background:linear-gradient(black, grey);
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>form</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./form.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat&family=Sacramento&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="menu">
+        <div class="switch">
+          <a href="./index.html"
+            ><img class="logo" src="./images/logo.png" alt="logo"
+          /></a>
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="toggle">
+            <img
+              class="menu"
+              src="./images/toggle.png"
+              alt="hamburger menu"
+              width="30px"
+            />
+            <img
+              class="exit"
+              src="./images/cross.avif"
+              alt="exit"
+              width="30px"
+            />
+          </label>
+        </div>
+        <div class="navbar_v">
+          <a class="p-tag" href="./index.html">HOME</a>
+          <a class="p-tag" href="./about.html">ABOUT</a>
+          <a class="p-tag" href="./contact.html">CONTACT</a>
+          <a class="p-tag" href="./gallery.html">GALLERY</a>
+          <a class="p-tag sp" href="./adm.html">ADMISSION</a>
+          <a class="btn" href="./login.html">LOGIN</a>
+        </div>
+      </div>
+      <div class="navbar_h">
+        <a href="./index.html"
+          ><img class="logo" src="./images/logo.png" alt="logo"
+        /></a>
+        <a class="p-tag" href="./index.html">HOME</a>
+        <a class="p-tag" href="./about.html">ABOUT</a>
+        <a class="p-tag" href="./contact.html">CONTACT</a>
+        <a class="p-tag" href="./gallery.html">GALLERY</a>
+        <a class="p-tag sp" href="./adm.html">ADMISSION</a>
+        <a class="btn" href="./login.html">LOGIN</a>
+      </div>
+    </nav>
+    <hr color="lightgrey" width="90%" />
+    <form method="post" action="/form">
+      <div class="name">
+        <fieldset class="spread">
+          <legend>FirstName*</legend>
+          <!-- <label for="firstname"></label> -->
+          <input
+            type="text"
+            id="firstname"
+            name=""
+            placeholder="Enter First Name"
+            required
+          />
+        </fieldset>
+        <fieldset class="spread">
+          <legend>LastName</legend>
+          <!-- <label for="lastname">LastName</label> -->
+          <input type="text" id="lastname" placeholder="Enter Last Name" />
+        </fieldset>
+      </div>
+      <div class="name">
+        <fieldset>
+          <legend>Email*</legend>
+          <!-- <label for="email">Email</label> -->
+          <input type="email" id="email" placeholder="Enter Email" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Contact No</legend>
+          <!-- <label for="contact">Contact No</label> -->
+          <input type="text" id="contact" placeholder="Enter number" />
+        </fieldset>
+      </div>
+      <div>
+        <fieldset class="dob">
+          <legend>Date of Birth</legend>
+          <!-- <label for="dob">Date of birth</label> -->
+          <input type="date" id="dob" />
+        </fieldset>
+      </div>
+      <!-- <input type="checkbox" />
+      <label>keep me logged in</label>
+      <a class="pwd" href="">Forget password?</a><br /><br />
+      <span class="grey"
+        >Need an account?<a class="pwd" href="">SIGN UP</a></span
+      > -->
+      <h5>ADD DOCUMENTS</h5>
+
+      <span>
+        <div>
+          <p>select files...</p>
+          <div class="change">
+            <input type="file" placeholder="Choose File" />
+          </div>
+        </div>
+      </span>
+      <input type="submit" placeholder="submit" />
+    </form>
+
+    <footer>
+      <div class="foot">
+        <div class="gap">
+          <p class="info"><strong>ABOUT</strong></p>
+          <ul>
+            <li><a class="footer-link" href="./contact.html">CONTACT US</a></li>
+            <li><a class="footer-link" href="./about.html">ABOUT US</a></li>
+            <li><a class="footer-link" href="./form.html">DOCUMENTS</a></li>
+          </ul>
+        </div>
+        <div class="gap">
+          <p class="info"><strong>SOCIAL MEDIA</strong></p>
+          <ul>
+            <li>
+              <a class="footer-link" href="https://www.facebook.com/login/"
+                >FACEBOOK</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="https://twitter.com/">TWITTER</a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://in.linkedin.com/"
+                >LINKEDIN</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="gap">
+          <p class="info"><strong>BRANCHES</strong></p>
+          <ul>
+            <li><a class="footer-link" href="./index.html">Mansarover</a></li>
+            <li><a class="footer-link" href="./index.html">Jhotwara</a></li>
+            <li><a class="footer-link" href="./index.html">VDN</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

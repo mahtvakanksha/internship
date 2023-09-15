@@ -1,0 +1,21 @@
+h2{
+    padding:10px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif; 
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    /* margin-left:50px;
+} */}
+.circle{
+    border:solid;
+    padding:5px;
+    height:150px;
+    width:250px;
+    margin:10px ;
+}
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
